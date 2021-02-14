@@ -17,7 +17,7 @@ a {color:red; text-decoration: line;text-shadow:  3px 3px 6px red ; font-size: 2
   width: 70%;
   margin: auto;
   }
-	.article {color:red; font-size: 20px; margin: auto;}
+	.article {color:red; font-size: 20px; margin: auto;position: relative;}
   h3 {color:darkslategray; background-color: bisque; font-size: 20px;text-align: center; margin: auto;height:20px;  width: 80px}
   p{ font-size: 14px;text-align: justify right; font-weight: black; padding: 8px; background: bisque; border-bottom: 2px solid black;
 color: darkslategray; border-top: 3px solid black;margin: auto;  height:20px;  width: 220px;
@@ -25,7 +25,7 @@ color: darkslategray; border-top: 3px solid black;margin: auto;  height:20px;  w
 
 caption { font-family: "arial";
 font-size: 20px; color: darkslategray; background: bisque;
-text-align: center; border-collapse: black; margin: 1px;
+text-align: center; border-collapse: black; margin: 1px; position: relative;
 }
 table { font-family: "Lucida Sans Unicode";
 font-size: 18px; margin: auto; width: 480px;

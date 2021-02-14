@@ -2,183 +2,18 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/estilos2.css">
   <style type="text/css">
-  html {
-    min-height: 100%;
-    position: relative;
-  }
-  body {
-    margin: 0;
-    margin-bottom: 40px;
-  }
 
-  ul {color:red;}
-  a {color:white; text-decoration: line;text-shadow:  5px 5px 10px  ; font-size: 20px;}
   body{
   background-image: url(https://allegra.flowersetcfresno.com/pic/5657985_full-fondo-pantalla-azul-3d-fondos-de-pantalla-azul-canal-3d-resumen-2560x1600-hd-imagen.jpg);
   background-repeat: no-repeat, repeat;
-  background-size: 1350px 1300px;
+  background-size: 100% 110%;
   }
-
-  p {
-    color: white;
-    font-size: 160%;
-    line-height: 155%;
-    padding: 3%;
-    text-indent: 2%;
-    text-align: justify;
-  }
-
-  h3 {
-    font-size: 155%;
-    line-height: 155%;
-    font-weight: 500;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 0;
-  }
-
-  a {
-    color: #524c56;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  a:hover {
-    color: #c3d7df;
-  }
-
-
-  #wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  #banner-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 0 3% 0;
-  }
-
-
-  /* NAVIGATION*/
-  nav {
-    float: left;
-    padding: 25px 20px 0px 0px;
-  }
-
-  #menu-icon {
-    display: none;
-    font-size: 50px;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  nav ul li {
-    font-size: 150%;
-    display: inline-block;
-    float: left;
-    padding: 10px;
-  }
-
-  nav ul li a {
-    color: #6991AC;
-  }
-
-  .current {
-    color: #3F5767;
-  }
-
-  a:hover {
-    color: #a5bdcd;
-  }
-
-  .slider{
-    position: relative;
-    width:680px;
-    height: 180px;
-    margin: auto;
-  }
-
-     .slider ul li {
-           position: absolute;
-           margin:10px;
-         height: 150px;
-      width: 500px;
-     }
-
-    .slider ul li img {
-      height: 110%;
-      width: 90%;
-      margin: auto;
-      height: 150px;
-   width: 500px;
-   }
-
-ul.slider li {
-    opacity: 0;
-    transition: opacity .5s;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    margin:10px;
-    padding:10px;
-    border:2px solid red;
-    background:#fff;
-    height: 150px;
- width: 500px;
- }
-  .one-third {
-    width: 31.5%;
-    float: left;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .icon-wrap {
-    margin: 0 auto;
-    width: 120px;
-    height: 120px;
-    background-color: #6991ac;
-    border-radius: 125px;
-    text-align: center;
-    margin-top: 3%;
-  }
-
-  .icon-wrap i {
-    text-align: center;
-    color: #ffffff;
-    font-size: 350%;
-    padding: 20%;
-  }
-
-
-  .sidebar {
-    float: right;
-    margin: 0 auto;
-    width: 32%;
-    height: auto;
-    padding: 1%;
-  }
-
-  .second-FOOTER {
-    border-top: 1px solid #aadcd2;
-    text-align: right;
-    margin: 0;
-    width: 100%;
-    height: 50px;
-  }
-  footer {
-     position:absolute;
-     left:0px;
-     bottom:0px;
-     height:30px;
-     width:100%;
-     text-align: left;
-    }
   </style>
+  <div align="center">
+  <img src="IMAGENES\LOGOS\LOGO_UNAD.JPG" height= "80";  width="120">
+</div>
 
   <title>Conceptos</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
@@ -190,28 +25,37 @@ ul.slider li {
 
 <body>
 
-  <!-- MAIN WRAPPER -->
-  <div id="wrapper">
+  <div id="banner-wrapper">
+        <header>
+          <div id="header-inner">
+            <a href="#" id="logo">
+              <img src="img/pics/fazt_logo.png" alt="">
+            </a>
 
-    <!-- BANNER WRAPPER -->
-    <div id="banner-wrapper">
-      <header>
-        <div id="header-inner">
-          <a href="#" id="logo">
-            <img src="imagenes/logoss/LOGO_UNAD.JPG" alt="">
-          </a>
-
-          <nav>
-            <a href="#" id="menu-icon">
-              <i class="fa fa-bars"></i>
+            <nav>
+              <a href="#" id="menu-icon">
+                <i class="fa fa-bars"></i>
+              </a>
+              <ul>
+                <li>
+                  <a href="index.html" class="current">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#Conceptos">
+                    Conceptos
+                  </a>
+                </li>
               <li>
-                <a href="#Conceptos">
-                  Conceptos
+                <a href="#Historia">
+                  Historia
                 </a>
               </li>
-              <li>
-
-      </header>
+            </ul>
+            </nav>
+          </div>
+        </header>
       <!-- SLIDER -->
       <div id="slide-wrap">
         <section class="slider">
@@ -225,32 +69,63 @@ ul.slider li {
     </div>
 
     <!-- ICONS -->
-    <section class="one-third" id="Portfolio">
+    <section class="one-third" id="Conceptos">
       <div class="icon-wrap">
         <i class="fa fa-desktop"></i>
       </div>
-      <h3>Diseño web</h3>
+      <h2>Diseño web</h2>
       <p>El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web. ... El diseño web ha visto amplia aplicación en los sectores comerciales de Internet especialmente en la World Wide Web. A menudo la web se utiliza como medio de expresión plástica en sí.</p>
     </section>
     <section class="one-third">
       <div class="icon-wrap">
         <i class="fa fa-pencil-square-o"></i>
       </div>
-      <h3>HTML5</h3>
+      <h2>HTML5</h2>
       <p>HTML 5 es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: una «clásica», HTML, conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML 5 que deberá servirse con sintaxis XML</p>
     </section>
     <section class="one-third">
       <div class="icon-wrap">
         <i class="fa fa-file-code-o"></i>
       </div>
-      <h3>CSS3</h3>
-      <p>CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado</p>
+      <h2>CSS3</h2>
+      <p>CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño
+         gráfico para definir y crear la presentación de un documento
+          estructurado escrito en un lenguaje de marcado</p>
     </section>
+    <section class="subir">
+    <li>
+        <a href="#">subir</a>
+      </li>
+
+      </section>
+    <div class="clearfix-padding"></div>
+       <!-- LEFT COL -->
+       <section class="left-col" id="Historia">
+         <h3>Historia Web</h3>
+         <p>La World Wide Web ('WWW' o simplemente la 'Web)' es un medio global de información cuyos
+            usuarios pueden leer y escribir a través de computadoras conectadas a Internet. El término es a menudo usado erróneamente
+            como un sinónimo para la Internet misma, pero la Web es un servicio que opera sobre la Internet, como también lo hace el correo electrónico.
+            La historia de Internet data de un tiempo significativamente anterior a la historia de la World Wide Web.</p>
+<ins><a href="https://es.wikipedia.org/wiki/Historia_de_la_World_Wide_Web">Historia Web fuente referencia</a></ins>
+<h3>Historia Web</h3>
+<p>La World Wide Web ('WWW' o simplemente la 'Web)' es un medio global de información cuyos
+   usuarios pueden leer y escribir a través de computadoras conectadas a Internet. El término es a menudo usado erróneamente
+   como un sinónimo para la Internet misma, pero la Web es un servicio que opera sobre la Internet, como también lo hace el correo electrónico.
+   La historia de Internet data de un tiempo significativamente anterior a la historia de la World Wide Web.</p>
+<ins><a href="https://es.wikipedia.org/wiki/Historia_de_la_World_Wide_Web">Historia Web fuente referencia</a></ins>
+<h3>Historia Web</h3>
+<p>La World Wide Web ('WWW' o simplemente la 'Web)' es un medio global de información cuyos
+   usuarios pueden leer y escribir a través de computadoras conectadas a Internet. El término es a menudo usado erróneamente
+   como un sinónimo para la Internet misma, pero la Web es un servicio que opera sobre la Internet, como también lo hace el correo electrónico.
+   La historia de Internet data de un tiempo significativamente anterior a la historia de la World Wide Web.</p>
+<ins><a href="https://es.wikipedia.org/wiki/Historia_de_la_World_Wide_Web">Historia Web fuente referencia</a></ins>
+
+     </section>
       <!-- FOOTER -->
   <footer>
     <ul class="footer-nav">
           <li>
-              <a href="#">Conceptos</a>
+              <a href="#">Home</a>
             </li>
             <footer class="second-footer">
             <a href="INDEX.html"><img src="imagenes/ICONO/1.jpg" alt="" width="48" height= "48"align= "right">
